@@ -1,0 +1,388 @@
+/*Css for Large Device*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .footertext a span {
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 20px;
+        margin-right: 5px;
+    }
+    .businessplantext {
+        margin-top: 0%;
+    }
+    .bannertext h5 {
+        margin-bottom: 5px;
+    }
+    .slide-item {
+        padding: 232px 0 180px 0;
+    }
+
+}
+
+/*Css for Medium Device*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card {
+        margin-bottom: 15px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .businessplantext {
+        margin-top: 2%;
+    }
+    .bannertext h5 {
+        margin-bottom: 5px;
+    }
+    #about h4 {
+        margin-top: 30px
+    }
+    #counterpart h5 {
+        margin-bottom: 18px;
+    }
+    #contactuspart p {
+        margin-bottom: 30px;
+    }
+    .contactbg {
+        padding: 28px 15px 0px;
+    }
+    .md-pt-30 {
+        padding-top: 30px;
+    }
+    .copy-bg p {
+        margin-bottom: 0px !important;
+    }
+    .portfolio-item {
+        width: 50%;
+    }
+    .footertext a span {
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 20px;
+        margin-right: 5px;
+    }
+    .slide-item {
+        padding: 231px 0 179px 0;
+        position: relative;
+        width: 100%;
+        display: table;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #counterpart .box{
+        display: inline-block;
+    }
+    #counterpart {
+        padding: 107px 0px 78px;
+    }
+    #counterpart .box {
+        display: inline-block;
+        border: 1px solid #fff;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 150px;
+        padding-top: 48px;
+    }
+    .businessplantext p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+}
+
+/*Css for Small Device*/
+
+@media (max-width: 767.98px) {
+    .card {
+        margin-bottom: 15px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .bannertext h5 {
+        margin-bottom: 5px;
+    }
+    #about h4 {
+        margin-top: 43px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #ffffff;
+        outline: none;
+    }
+    .navbar-toggler i {
+        color: #f1f1f1;
+        font-size: 20px;
+    }
+    .nav-link {
+        display: inline-block;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navigation .navbar-nav .nav-item .nav-link {
+        line-height: 50px;
+    }
+    .nav-link::after {
+        bottom: 5px;
+    }
+    .navigation {
+        background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+        padding: 10px;
+    }
+
+    .sm-mt-30 {
+        margin-top: 30px;
+    }
+
+    /*Counter part css start*/
+    #counterpart h5 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    #counterpart {
+        padding: 100px 0px 70px;
+    }
+    #servicepart .modal h4 {
+        font-size: 20px;
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+
+    #contactuspart p {
+        margin-bottom: 30px;
+    }
+    .contactbg {
+        padding: 28px 15px 0px;
+    }
+    .md-pt-30 {
+        padding-top: 30px;
+    }
+    .copy-bg p {
+        margin-bottom: 0px !important;
+    }
+    .portfolio-item {
+        width: 100%;
+        padding: 0;
+    }
+    .portfolio-item + .portfolio-item {
+        margin-top: 10px;
+    }
+ 
+    .slide-caption .slider-inner .caption-title {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 33px;
+    }
+    .slide-caption .slider-inner .slide-btn {
+        margin-top: 41px;
+    }
+    .slide-caption .slider-inner .caption-desc {
+        font-size: 16px;
+    }
+    .slide-item {
+        padding: 235px 0 179px 0;
+    }
+    #about h2 {
+        margin-bottom: 15px;
+    }
+    #about .sectionTitle {
+        margin-bottom: 42px;
+    }
+    a.about_btn {
+        margin: 45px 0 0;
+    }
+    #counterpart .box{
+        display: inline-block;
+    }
+    #counterpart .box {
+        display: inline-block;
+        border: 1px solid #fff;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 150px;
+        padding-top: 48px;
+    }
+}
+
+/*Css for Extra small Device*/
+
+@media (max-width: 575.98px) {
+    .pl {
+        padding-left: 15px;
+    }
+ 
+    .navbar-light .navbar-toggler {
+        border-color: #ffffff;
+        outline: none;
+    }
+    .navbar-toggler i {
+        color: #f1f1f1;
+        font-size: 20px;
+    }
+    .nav-link {
+        display: inline-block;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navigation .navbar-nav .nav-item .nav-link {
+        line-height: 50px;
+    }
+    .nav-link::after {
+        bottom: 5px;
+    }
+    .navigation {
+        background: #222;
+        padding: 10px;
+    }
+ 
+    .bannertext h5 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .bannertext p {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .bannertext a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .businessplantext h5 {
+        font-size: 20px;
+    }
+    .businessplantext p {
+        font-size: 16px;
+
+    }
+    .businessplantext {
+        margin-right: 15px;
+    }
+    .portfolio-item {
+        width: 100%;
+        padding: 0;
+    }
+    .portfolio-item + .portfolio-item {
+        margin-top: 10px;
+    }
+
+    .pricing-category {
+        margin-bottom: 30px;
+    }
+
+    #counterpart h5 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .testimonial {
+        margin: 0px;
+        margin: 0px 15px;
+    }
+
+    #contactuspart i {
+        margin-bottom: 30px;
+    }
+    .contactbg {
+        padding: 30px 15px 0px;
+    }
+
+    .footertext .manu {
+        margin-top: 30px;
+    }
+    
+    .slide-item {
+        padding: 167px 0 100px 0;
+    }
+    .slide-caption .slider-inner .caption-title {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .slide-caption .slider-inner {
+        padding: 0px 15px;
+    }
+    #about h4 {
+        font-size: 20px;
+    }
+    .slide-caption .slider-inner .caption-title {
+        margin-bottom: 15px;
+    }
+    .slide-btn a {
+        width: 140px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #about h2, #servicepart h2, #gallery h2, #aboutuspart h2, #team h2, #clientpart h2, #pricing h2, #latestnewspart h2, #clientpart h2, #testimonialpart h2, #contactuspart h2 {
+        font-size: 30px;
+    }
+    .service_flipbox .inner_flip h4 {
+        font-size: 20px;
+    }
+    #servicepart .modal h3 {
+        font-size: 20px;
+    }
+    #servicepart .modal .modal-body img{
+        margin-top: 10px;
+    }
+    #servicepart .modal h4 {
+        font-size: 20px;
+        margin-bottom: 7px;
+        margin-top: 45px;
+    }
+    .slide-item {
+        padding: 167px 0 100px 0;
+    }
+    .manu.fmenu2{
+        margin-top: 0px;
+    }
+    #pricing {
+        padding: 90px 0px 70px;
+        background: whitesmoke;
+    }
+}
+
+
+
+@media (max-width: 433px) {
+.slide-caption .slider-inner .slide-btn a:first-child{
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.slide-item {
+    padding: 167px 0 83px 0;
+}
+}   
+@media (max-width: 370px) {
+    .slide-caption .slider-inner .caption-title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .slide-caption .slider-inner .caption-desc {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    h2{
+        font-size: 32px!important;
+    }
+}   
